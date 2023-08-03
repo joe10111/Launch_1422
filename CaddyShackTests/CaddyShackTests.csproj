@@ -7,7 +7,7 @@
 
     <IsPackable>false</IsPackable>
 
-    <StartupObject>MvcMovie.FeatureTests.Program</StartupObject>
+    <StartupObject>CaddyShackTests.FeatureTests.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
