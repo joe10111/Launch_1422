@@ -1,0 +1,15 @@
+﻿@model GolfBag
+
+<h1>Edit GolfBag</h1>
+
+<form method="post" action="/golfbags/@Model.Id">
+    <div class="form-group">
+        <label for="Player">Player:</label>
+        <input type="text" id="Player" name="Player" value="@Model.Player" />
+    </div>
+    <div class="form-group">
+        <label for="Capacity">Capacity:</label>
+        <input type="number" id="Capacity" name="Capacity" value="@Model.Capacity" />
+    </div>
+    <button type="submit">Update GolfBag</button>
+</form>
