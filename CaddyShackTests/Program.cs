@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using CaddyShackMVC.Controllers;
 using CaddyShackMVC.DataAccess;
 
-namespace MvcMovie.FeatureTests
+namespace CaddyShackTests.FeatureTests
 {
     public class Program
     {
